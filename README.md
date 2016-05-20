@@ -4,7 +4,7 @@ Astro 250 -- Extra Galactic Stellar Populations
 
 #### GitHub
 
-This class will make heavy use of GitHub. Notes, homework sets, data, slides, etc. will all be posted through the classes main GitHub repo and you should fork the repository so you can develop, do the homework, etc. on your own. Similarly, we will use the GitHub framework for addressing questions.  When you have questions about an assignment, notes, etc. you should raise an "issue".  
+This class will make heavy use of GitHub. Notes, homework sets, data, slides, etc. will all be posted through the classes main GitHub repo and you should "fork" the repository so you can develop, do the homework, etc. on your own. Similarly, we will use the GitHub framework for addressing questions.  When you have questions about an assignment, notes, etc. you should raise an "issue".  
 
 All of your work will be visible to each other and anyone that wants to look at your repo.  You should become comfortable with the idea of doing your work in the open -- transparency is fundamental to science.
 
@@ -15,3 +15,10 @@ For those not familiar with GitHub, there are number of tutorials on the web for
 * [GitHub Tutorial 2](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
 * [GitHub Tutorial 3](http://kbroman.org/github_tutorial/)
+
+
+#### Python
+
+All coding exercises in this class should be done in python. For those less familiar with python, I provide a few links to tutorials below.  There are many, many web resources for learning python.
+
+For simplicity and future code compabtility reasons, I suggest using the [Anaconda](https://www.continuum.io/downloads) distribution of Python.  You can obtain a free academic version [here](https://www.continuum.io/anaconda-academic-subscriptions-available).  Python 2.7 is the "safe" version of Python, although much development is now being done in Python 3.x (the latest version is 3.5).  You can easily install both, if you wish.  Unfortunately, not all Python code is compabtile with both Python 2.x and 3.x. We'll try to minimze compabiltity issues, but expect to run into at least a few throughout the course of the semester.
