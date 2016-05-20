@@ -16,6 +16,8 @@ For those not familiar with GitHub, there are number of tutorials on the web for
 
 * [GitHub Tutorial 3](http://kbroman.org/github_tutorial/)
 
+There are also several useful GitHub cheat sheets, such as this [one](http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png).
+
 
 #### Python
 
