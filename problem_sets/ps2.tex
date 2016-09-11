@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\usepackage{amssymb,amsmath}
+ 
+\begin{document}
+
+\noindent \textbf{\large{Fall 2016 Astro 250: Stellar Populations}} \\
+\noindent Instructor: Dan Weisz (dan.weisz@berkeley.edu) \\
+\textbf{\large{Problem Set 2 -- Intro to Probability and Stats}} \\
+\textbf{{Assigned: 9/12/16}} \\
+\textbf{{Due: 9/26/16}} \\
+
+\noindent All problem sets should be completed in your public github repository.  Problems that require written solutions should be completed using LaTeX.  Coding exercises should be done in a jupyter notebook. For clarity, you may want to put each coding problem in a separate notebook.\\
+
+
+\noindent \textbf{Problem 1.} \\ 
+
+Consider a single power-law IMF of the form:
+
+\begin{equation}
+P(M | \theta) = c \, M^{-\alpha}
+\end{equation}
+
+\noindent where 
+
+\begin{equation}
+c = \frac{1}{\int_{M_{min}}^{M_{max}} M^{-\alpha} dM} 
+\end{equation}
+
+\noindent and $\theta = (M_{min}, M_{max}, \alpha )$. \\
+
+For simplicity, assume perfect knowledge of the masses and that observational effects are negligible.  \\
+
+
+(a) Write code that generates a list of $N$ stellar masses between a given $M_{min}$ and $M_{max}$ from a power-law distribution with an index of $\alpha$.\\
+
+(b) Write code that will perform inference on the set of fake data you generated in part (a) using \texttt{emcee}.\\
+
+(c) Generate a fake dataset assuming $M_{min}=3 \, M_{\odot}$, $M_{max}=15 \, M_{\odot}$, $N=1000$ and $\alpha=1.35$.  In your inference code, let $\alpha$ and $M_{max}$ be free parameters (but fix $M_{min}=3 M_{\odot}$).  Given this fake dataset, to what precision can you constrain $\alpha$ and $M_{max}$? \\
+
+(d) Show how the precision to which $\alpha$ and $M_{max}$ can be recovered depends on $N$, from $N \sim 10$ to $N\sim10,000$. Summarize your results in plots.  It is OK to discretely and uniformly select values of $N$ in $\log_{10}$ space (e.g., $\log_{10}(N) = 1,2,3,4$). \textit{Hint: In the limit that $N$ is a small number, you may want to generate multiple datasets to verify the fidelity of your confidence intervals, as stochastic effects can be important.}   \\
+
+\newpage
+
+\noindent \textbf{Problem 2.} \\ 
+
+In this problem, we will attempt to re-create Salpeter's original IMF measurement.  \\
+
+(a) Using the data for mass and number density in Table 2 and/or Figure 2 in Salpeter (1955), fit a power-law using an optimizer or least squares fitter (e.g., \texttt{scipy.optimize}).\\
+
+(b) Same as part (a) only using your own inference code and \texttt{emcee}.  Compare the two results:  How close are they to one another? How close are they to the value reported in Salpeter (1955)?  \\
+
+\noindent \textbf{Problem 3.} \\ 
+
+There are claims in the literature that the low-mass IMF slope may systematically deviate from the Galactic value in low-mass dwarf galaxies (e.g., Wyse et al. 2002; Geha et al. 2013).  However, these measurements are made over a fairly limited mass range (usually $\sim 0.5- 0.8 \, M_{\odot}$) and done so assuming that a power-law is a reasonable approximation for the low-mass IMF.
+
+Suppose the true IMF for stars with $M<1 M_{\odot}$ in all galaxies is actually a Chabrier IMF, i.e., a log-normal at low-masses.  Ignoring corrections for stellar multiplicity, this IMF has the functional form:
+
+\begin{equation}
+\xi(m)\Delta m = \frac{0.15}{m} \, {\rm exp}\frac{-(log(m) - log(0.08))^2}{(2\times0.69)^2}
+\end{equation}
+
+
+(a) Using the Chabrier IMF from above, generate a list of $N$=10,000 (perfectly known) stellar masses between 0.5 and 0.8 $M_{\odot}$.  \\
+
+(b) Now, assuming a single-slope power-law IMF model (as done in the literature), infer the value of the spectral index $\alpha$.  How does this compare with the canonical Kroupa IMF found in the Milky Way?  \\
+
+
+\noindent \textbf{Problem 4.} \\ 
+
+Using python-FSPS: \\
+
+(1) Generate the spectrum for a 10 Myr simple stellar population (assume no dust, fixed metallicity, etc -- the only variable of interest is age). Plot how the spectrum from $1500- 10000$\AA\ changes for three different high-mass IMF ($>1\, M_{\odot}$) values: $\alpha=0.8, 1.3, 1.8$, holding the lower portions of the IMF fixed.  \\
+
+(2) Generate the spectrum of a 10 Gyr simple stellar population.  Plot how the spectrum from $5000-20000$\AA\ changes for three different IMF forms: Salpeter IMF, a Kroupa IMF, and the van Dokkum IMF. 
+
+
+
+\end{document}
+
+
