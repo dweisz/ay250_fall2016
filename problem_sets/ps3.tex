@@ -1,0 +1,51 @@
+\documentclass{article}
+
+\usepackage{amssymb,amsmath}
+\usepackage{hyperref}
+ 
+\begin{document}
+
+\noindent \textbf{\large{Fall 2016 Astro 250: Stellar Populations}} \\
+\noindent Instructor: Dan Weisz (dan.weisz@berkeley.edu) \\
+\textbf{\large{Problem Set 3 -- Resolved Stellar Populations}} \\
+\textbf{{Assigned: 10/3/16}} \\
+\textbf{{Due: 10/17/16}} \\
+
+Please complete the problems using your github repository. \\
+
+
+\noindent \textbf{Problem 1. The age of M92 -- CMD} \\ 
+
+(a) From the \textit{Hubble Space Telescope} ACS Globular Cluster Survey website (\url{http://www.astro.ufl.edu/~ata/public_hstgc/}), download the photometry for M92 (NGC~6341).  Plot the its color-magnitude diagram (CMD) in the ACS/WFC $F606W$ and $F814W$ filters. \\
+
+(b) Using information from NED (\url{http://ned.ipac.caltech.edu}), and assuming that $F606W \sim R$-band and $F814W \sim I$-band, find and plot an isochrone from the MIST stellar evolution library (\url{http://waps.cfa.harvard.edu/MIST/}) that best fits the CMD of M92.   \\
+
+In this exercise, consider adjusting the distance, age, metallicity, and/or extinction.  You should consider models that have an age and metallicity resolution of log(age) = 0.05 dex and [M/H] = 0.05 dex. You may adopt arbitrarily strong priors on any of the parameters, as long as you explicitly justify them. \\
+
+It is acceptable to do this problem in a ``chi-by-eye'' sense, but it may be more efficient to write a simple, automated isochrone fitting routine. Your choice. \\
+
+(c) Repeat part (b), only using the PARSEC models (\url{http://stev.oapd.inaf.it/cgi-bin/cmd}). \\
+
+(d) Describe the differences, if any, between best fitting PARSEC and MIST isochrones for M92.  If there are differences, what might be their source?  How do your best fit parameters compare with values from the literature? \\
+
+\noindent \textbf{Problem 2. The age of M92 -- Integrated Light} \\ 
+
+
+(a) Using \texttt{python-fsps}, generate integrated magnitudes in $V$ and $I$ (Vega magnitudes) for a simple stellar population that has parameters similar to the best fitting parameters you found for M92  in  Problem (1).  Specify which stellar evolution model and stellar atmosphere model you use. \\
+
+(b) Assuming normally distributed 1-$\sigma$ uncertainties of 0.1 mag in both bands, add random Gaussian noise to your mock photometry.  Then, use \texttt{python-fsps} and \texttt{emcee} to fit for the age, metallicity, distance, and extinction of your mock M92-like cluster.  Justify any priors you adopt (e.g., you may end up exploring a strong prior on distance).  Show the resulting triangle plot(s) and discuss the how well constrained (or not) the parameters are.  \\
+
+(c) Repeat part (b), but assume photometric uncertainties of 0.01 mag.  How, if at all, do the results differ from part (b)? \\
+
+(d) Repeat part (b), but assume you now have access to (mock) photometry in the following 4 bands: UBVI.  How, if at all, do the results differ from part (b)? \\
+
+(e) Repeat part (d) only now with the addition of the GALEX FUV filter.  How, if at all, do the results differ from parts (b) and (d)?  Does the far UV filter improve any constraints? What might be some challenges to using integrated UV observations of globular clusters? \\
+
+
+
+
+
+
+\end{document}
+
+
