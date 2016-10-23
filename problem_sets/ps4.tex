@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage{amssymb,amsmath}
+\usepackage{hyperref}
+ 
+\begin{document}
+
+\noindent \textbf{\large{Fall 2016 Astro 250: Stellar Populations}} \\
+\noindent Instructor: Dan Weisz (dan.weisz@berkeley.edu) \\
+\textbf{\large{Problem Set 4 -- Dust}} \\
+\textbf{{Assigned: 10/24/16}} \\
+\textbf{{Due: 11/7/16}} \\
+
+Please complete the problems using your github repository. \\
+
+
+\noindent \textbf{Problem 1. Visualizing Extinction/Attenuation Curves} \\ 
+
+
+In this problem, you will explore extinction/attenuation curves by making \textit{aesthetically pleasing} plots.  Consider your choices in color, line weight, legend, transparency, font size, shading, etc., to make clear, easy to interpret plots. \\
+
+For convenience in working with extinction/attenuation curves, it is recommended that you install the  python package, \texttt{sedpy}: \url{https://github.com/bd-j/sedpy}, and add it to your \texttt{PYTHONPATH} variable.  Using the \texttt{attenuation} package, e.g., \texttt{from sedpy import attenuation}, you will have access to various extinction/attenuation curves (e.g., SMC, Cardelli) specified in the \texttt{attenuation} source code (located in \texttt{sedpy/sedpy/attenutation.py}). \\
+
+(a) Using the \texttt{attenuation} package from \texttt{sedpy}, generate a plot showing `selective absorption' ($A_\lambda / A_V$) vs. 1/$\lambda$ (where $\lambda$, for plotting purposes, should be in microns) for the following attenuation curves: Power law, SMC, LMC, Cardelli, and Calzetti.  Use the wavelength range: $1000-10000$ \AA. \\
+
+(b) Overplot filter transmission curves for GALEX FUV, GALEX NUV, and the 5 SDSS \textit{ugriz} bands.  Ensure that the transmission curves run through the extinction/attenuation curves on the plot, and label their filter.  Recall that transmission curves are usually given in arbitrary units, and can thus be scaled up and down arbitrarily.  This works so long as the same scale factor is used for all filters. \\
+
+There are several ways to find transmission curves.  The \texttt{sedpy} README suggests one.  Another way is to use \texttt{python-fsps}, which has many commonly used transmission curves readily available.  More information about transmission curves in \texttt{python-fsps} can be found here: \url{http://dan.iel.fm/python-fsps/current/filters_api/}. \\
+
+(c)  Plot the Conroy extinction curve for 2175\AA\ bump fractions between 0 and 1, with a resolution of 0.1.  At what value of bump fraction are the Conroy and Cardelli curves equal?  \\
+
+(d) Suppose you knew the Conroy extinction curve was correct, but didn't know the bump fraction.  What might be most useful (say 2-4 filters) for constraining the bump fraction?  \textit{Hint: You may want to search for `uv' using the \texttt{python-fsps} `find filter' function.}  Overplot your selected filters on the various Conroy extinction curves generated in part (c).
+
+
+
+
+
+
+
+\end{document}
+
+
