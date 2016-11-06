@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage{amssymb,amsmath}
+\usepackage{hyperref}
+ 
+\begin{document}
+
+\noindent \textbf{\large{Fall 2016 Astro 250: Stellar Populations}} \\
+\noindent Instructor: Dan Weisz (dan.weisz@berkeley.edu) \\
+\textbf{\large{Problem Set 5 -- Unresolved Nearby Galaxies}} \\
+\textbf{{Assigned: 11/7/16}} \\
+\textbf{{Due: 11/21/16}} \\
+
+Please complete the problems using your github repository. \\
+
+This problem set will make use of data from GALEX UV survey of nearby galaxies presented in \url{http://adsabs.harvard.edu/abs/2011ApJS..192....6L}.  You can download a summarized data set here: \url{XXX}. \\
+
+\noindent The columns in the data file are: 
+
+\begin{enumerate}
+\item Galaxy Name
+\item RA
+\item DEC
+\item Distance (Mpc)
+\item Apparent B-band (AB mag)
+\item Morphological Type Number (see \url{https://en.wikipedia.org/wiki/Galaxy_morphological_classification})
+\item Milky Way Foreground E(B-V)
+\item Apparent FUV (AB mag)
+\item Apparent FUV error (AB mag)
+\item Apparent NUV (AB mag)
+\item Apparent NUV error (AB mag)
+\end{enumerate}
+
+\noindent Values of 99.999 mean there is no data.  There are no formal uncertainties attached to the B-band magnitudes.  It would be fair to assign them random Gaussian uncertainties of order 0.1 mag.\\
+
+\noindent Using the above data, this problem set explores the relationship between galaxy SFR, stellar mass, and metallicity. \\
+
+\noindent \textbf{Problem 1. UV Star Formation Rates} \\
+
+(a) Derive a relationship between a galaxy's intrinsic far-UV luminosity and SFR using \texttt{python-fsps}, i.e., $\dot{M_{\star}}$ (M$_{\odot}$ yr$^{-1}$) $=$ log(L$_{\rm FUV}$) $-$ log(C$_{\rm FUV}$) (Equation 12 in Kennicutt \& Evans 2012).  Assuming a constant SFH over the history of the Universe, a fully populated Kroupa IMF, and a single (solar) metallicity, find the value of C$_{\rm UV}$. \\
+
+\noindent Some potentially useful quantities:
+
+ \begin{itemize}
+\item An AB magnitude reflects a specific flux: $F_{\nu}$
+\item L$_{\odot} =$ 3.846e33 erg/s
+\item 1 pc = 3.085677581467192e18 cm
+\item AB magnitude zero point: m$_{ab,0} = -2.5\, {\rm log}_{10}(3631\times10^{-23})$
+\item h = 6.6260755e-27 erg s
+\item c = 2.99792458e18 $\AA$/s
+\end{itemize}
+
+\noindent \textit{Hint: Be careful with unit conversions.  It may be helpful to write the flow of this problem out on paper before coding it up.} \\
+
+(b) How does your value of C$_{\rm FUV}$ compare to the value listed in Table 1 of Kennicutt \& Evans (2012)?  Why might there be differences? \\
+
+\noindent \textbf{Problem 2. Stellar Mass} \\
+
+It is possible, although not ideal, to use B-band luminosity as a proxy for a galaxy's stellar mass. Adopting the same assumptions as in Problem 1 (a) (e.g., constant SFH, IMF), use \texttt{python-fsps} to determine a relationship between absolute B-band magnitude and total stellar mass.  Make a plot that shows this theoretical relationship of M$_{\rm B}$ vs. M$_{\star}$ (or log(M$_{\star}$)).  Why is B-band not a great proxy for a galaxy's stellar mass? \\
+
+\noindent \textbf{Problem 3. Metallicity} \\
+
+Determine values of $M_B$ for all galaxies in your sample.  Using the luminosity-metallicity relationship from Berg et al. (2012), convert $M_B$ to a metallicity (i.e., 12 + log(O/H)) for each galaxy.  Plot the distribution of metallicities for galaxies in the sample.  \\
+
+\noindent \textbf{Problem 4. Trends in SFR, Mass, and Metallicity} \\
+
+(a) Make a plot showing SFR$_{\rm FUV}$ vs. M$_{\star}$ (or log(SFR$_{\rm FUV}$) vs. log(M$_{\star}$)) for galaxies in the sample. \\
+
+(b) Use \texttt{emcee} to fit a simple functional form (e.g., line, quadratic) to the linear-linear or log-log data from part (a).   Make the usual diagnostic plots (e.g., triangle plot) and overplot draws from your posterior on the real data. \\
+
+(c) Repeat parts (a) an (b) only for metallicity instead of stellar mass. \\
+
+
+\noindent \textbf{Problem 5. Caveats} \\
+
+Briefly comment on limitations of the above analysis.  Pay particular attention to what assumptions you made in your analysis might be problematic and suggest how they might be remedied.  Along the same lines, what data would improve determination of the SFR-mass or SFR-metallicity relationships for this sample and why?
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
