@@ -39,7 +39,7 @@ This course requires the use of python and github for problem sets.  More detail
 #### Schedule and Assignments:
 
 **0. Intro to Stellar Populations** (Weds 8/24)
- * Assignment due by 8/29: Create a github repo and email me your username.  Install python and juypter (see below).
+ * Assignment due by 8/29: Create a github repo and email me your username.  Install python and jupyter (see below).
  * Excellent overview of Stellar Populations: [Conroy 2013](http://adsabs.harvard.edu/abs/2013ARA%26A..51..393C). A detailed read is not necessary now, but we'll refer to this a lot throughout the semester.
  
 **1. Probability, Statistics, and Modeling** (~8/24 - 9/12)
@@ -58,7 +58,7 @@ This course requires the use of python and github for problem sets.  More detail
  * [8/29](https://github.com/dweisz/ay250_fall2016/tree/master/slides/8:29)
  * [8/30](https://github.com/dweisz/ay250_fall2016/tree/master/slides/8:30)
  * [9/7](https://github.com/dweisz/ay250_fall2016/tree/master/slides/9:7)
- * [juypter notebook](https://github.com/dweisz/ay250_fall2016/blob/master/notebooks/2d%20Gaussian%20sampling.ipynb) on sampling from a 2D Gaussian
+ * [jupyter notebook](https://github.com/dweisz/ay250_fall2016/blob/master/notebooks/2d%20Gaussian%20sampling.ipynb) on sampling from a 2D Gaussian
 
 * [Problem set #1](https://github.com/dweisz/ay250_fall2016/blob/master/problem_sets/ps1.pdf) (assigned 8/29, due 9/12)
 
@@ -216,9 +216,9 @@ Final Projects:
 
 Problem sets will require the use of github.  Each student will need their own github account and a public repository specifically for this class.  Problem sets should all be done in your own public repository. For those new to github, it has a gentle learning curve and most questions can be addressed simply with [this tutorial](https://guides.github.com/activities/hello-world/) and/or via Google.  
 
-Problem sets involving coding should be done using python and juypter (formerly iPython notebook). Any flavor of python is fine, although the [Anaconda distribution](https://www.continuum.io) is highly recommended. University affiliates can get it for [free](https://www.continuum.io/anaconda-academic-subscriptions-available).
+Problem sets involving coding should be done using python and jupyter (formerly iPython notebook). Any flavor of python is fine, although the [Anaconda distribution](https://www.continuum.io) is highly recommended. University affiliates can get it for [free](https://www.continuum.io/anaconda-academic-subscriptions-available).
 
-[juypter](http://jupyter.org) is an excellent web-based coding/python notebook that allows you to easily track and transparently share your code, as well as display key plots inline.  
+[jupyter](http://jupyter.org) is an excellent web-based coding/python notebook that allows you to easily track and transparently share your code, as well as display key plots inline.  
 
 In addition to the standard python installation, we will also use these python packages:
 
