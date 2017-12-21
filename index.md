@@ -86,7 +86,7 @@ This course requires the use of python and github for problem sets.  More detail
 
  * **M 9/26**
   * (1) Low-mass IMF variations from Integrated Light: [Conroy & van Dokkum (2012)](http://adsabs.harvard.edu/abs/2012ApJ...760...71C), [McConnell et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...821...39M) -- **Kareem** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/imf/Low_Mass_IMF_from_Integrated_Light_kareem.pdf))
-  * (2) High-Mass IMF variations from Integrated Light: [Lee et al. (2009)](http://adsabs.harvard.edu/abs/2009ApJ...706..599L), [Fumagalli et al. (2011)](http://adsabs.harvard.edu/abs/2011ApJ...741L..26F) -- **Siayo** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/imf/sum_Lee_Fumagalli_pre.pdf))
+  * (2) High-Mass IMF variations from Integrated Light: [Lee et al. (2009)](http://adsabs.harvard.edu/abs/2009ApJ...706..599L), [Fumagalli et al. (2011)](http://adsabs.harvard.edu/abs/2011ApJ...741L..26F) -- **Siayo** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/imf/sum_Lee_Fumagalli_pre.pdf))
 
 
 
@@ -102,12 +102,12 @@ This course requires the use of python and github for problem sets.  More detail
   * **9/28**  Stellar Evolution Overview -- **Dan**
 
   * **M 10/3** 
-   * (1) Globular Cluster Age Dating: [Chaboyer (2001)](http://adsabs.harvard.edu/abs/2001ASPC..245..162C) -- **Siyao** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/sum_chaboyer_2001_pre.pdf))
+   * (1) Globular Cluster Age Dating: [Chaboyer (2001)](http://adsabs.harvard.edu/abs/2001ASPC..245..162C) -- **Siyao** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/sum_chaboyer_2001_pre.pdf))
    * (2) Globular Cluster Ages/Cosmology: [Chaboyer et al. (1998)](http://adsabs.harvard.edu/abs/1998ApJ...494...96C) -- **Kareem** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/kareem_Chaboyer_1998.pdf))
   
   * **M 10/10**
-   * (1) Multiple Populations in Globular Clusters: Observations [Milone et al. (2013)](http://adsabs.harvard.edu/abs/2013ApJ...767..120M) -- **Max** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/max_Milone2013.pptx))
-   * (2) Multiple Populations in Globular Clusters: Theory [Renzini (2016)](http://adsabs.harvard.edu/abs/2015MNRAS.454.4197R) -- **Deepthi** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/deepthi_gc_multiplepops.pptx))
+   * (1) Multiple Populations in Globular Clusters: Observations [Milone et al. (2013)](http://adsabs.harvard.edu/abs/2013ApJ...767..120M) -- **Max** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/max_Milone2013.pptx))
+   * (2) Multiple Populations in Globular Clusters: Theory [Renzini (2016)](http://adsabs.harvard.edu/abs/2015MNRAS.454.4197R) -- **Deepthi** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/deepthi_gc_multiplepops.pptx))
 
   * **W 10/12**
    * (1) Multiple Populations in Young Clusters I.: [Goudfrooij et al. (2016)](http://adsabs.harvard.edu/abs/2015MNRAS.450.1693G) --  **David**
@@ -117,8 +117,8 @@ This course requires the use of python and github for problem sets.  More detail
   * (1) Stellar Populations in the Local Group: [Tolstoy et al. (2009)](http://adsabs.harvard.edu/abs/2009ARA%26A..47..371T) -- **split between 2 people**
 
  * **W 10/19**
-  * (1) Ultra-Faint Dwarf Galaxies: [Brown et al. (2014)](http://adsabs.harvard.edu/abs/2014ApJ...796...91B) -- **Saundra** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/saundra_Brown_2014_presentation.pdf))
-  * (2) Satellites of M31: [Skillman et al. (2016)](http://adsabs.harvard.edu/abs/2016arXiv160601207S) -- **Irina** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/irina_skillman2016-M31_Satellites.pdf))
+  * (1) Ultra-Faint Dwarf Galaxies: [Brown et al. (2014)](http://adsabs.harvard.edu/abs/2014ApJ...796...91B) -- **Saundra** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/saundra_Brown_2014_presentation.pdf))
+  * (2) Satellites of M31: [Skillman et al. (2016)](http://adsabs.harvard.edu/abs/2016arXiv160601207S) -- **Irina** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/irina_skillman2016-M31_Satellites.pdf))
 
 * [Problem set #3](https://github.com/dweisz/ay250_fall2016/blob/master/problem_sets/ps3.pdf) (assigned 10/3, due 10/17)
   
@@ -131,18 +131,18 @@ This course requires the use of python and github for problem sets.  More detail
 
   * **M 10/24** 
    * (0) A few words on dust -- **Dan**
-   * (1) Dust Attenuation in the Milky Way: [Cardelli et al. (1989)](http://adsabs.harvard.edu/abs/1989ApJ...345..245C) -- **Deepthi** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/deepthi_Cardelli89.pdf))
-   * (2) Milky Way Foreground Dust: [Schlafly & Finkbeiner (2011)](http://adsabs.harvard.edu/abs/2011ApJ...737..103S) -- **Siayo** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/siyao_schlafly_pre.pdf))
+   * (1) Dust Attenuation in the Milky Way: [Cardelli et al. (1989)](http://adsabs.harvard.edu/abs/1989ApJ...345..245C) -- **Deepthi** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/deepthi_Cardelli89.pdf))
+   * (2) Milky Way Foreground Dust: [Schlafly & Finkbeiner (2011)](http://adsabs.harvard.edu/abs/2011ApJ...737..103S) -- **Siayo** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/siyao_schlafly_pre.pdf))
   
  * **W 10/26** -- Dan out of town, Hans-Walter will talk about stellar spectroscopy.
 
  * **M 10/31**
-  * (1) Dust in Starburst Galaxies: [Calzetti et al. (1994)](http://adsabs.harvard.edu/abs/1994ApJ...429..582C) -- **Max** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/max_Calzetti1994.pptx))
-  * (2) Dust in the SMC: [Gordon & Clayton (1998)](http://adsabs.harvard.edu/abs/1998ApJ...500..816G) -- **Saundra** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/saundra_gordon_clayton_1998_presentation.pdf))
+  * (1) Dust in Starburst Galaxies: [Calzetti et al. (1994)](http://adsabs.harvard.edu/abs/1994ApJ...429..582C) -- **Max** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/max_Calzetti1994.pptx))
+  * (2) Dust in the SMC: [Gordon & Clayton (1998)](http://adsabs.harvard.edu/abs/1998ApJ...500..816G) -- **Saundra** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/saundra_gordon_clayton_1998_presentation.pdf))
    
   * **W 11/2**
-   * (1) The IRX-Beta Relationship: [Meurer et al. (1999)](http://adsabs.harvard.edu/abs/1999ApJ...521...64M) -- **Ned** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/IRX_beta.pptx))
-   * (2) Dust Attenuation in Distant Galaxies: [Kriek & Conroy (2013)](http://adsabs.harvard.edu/abs/2013ApJ...775L..16K) -- **Irina** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/irina_kriek2013-dust_variation.pdf))
+   * (1) The IRX-Beta Relationship: [Meurer et al. (1999)](http://adsabs.harvard.edu/abs/1999ApJ...521...64M) -- **Ned** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/IRX_beta.pptx))
+   * (2) Dust Attenuation in Distant Galaxies: [Kriek & Conroy (2013)](http://adsabs.harvard.edu/abs/2013ApJ...775L..16K) -- **Irina** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/dust/irina_kriek2013-dust_variation.pdf))
  
 
 * [Problem set #4](https://github.com/dweisz/ay250_fall2016/blob/master/problem_sets/ps4.pdf) (assigned 10/24, due 11/7)
@@ -155,20 +155,20 @@ This course requires the use of python and github for problem sets.  More detail
 * **Class Presentations:**
 
  * **M 11/7** 
-  * (1) Overview of SFR Indicators: [Kennicutt (1998)](http://adsabs.harvard.edu/abs/1998ARA%26A..36..189K) and [Kennicutt & Evans (2012), Section 3](http://adsabs.harvard.edu/abs/2012ARA%26A..50..531K) -- **Kareem** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/kareem_Kennicutt_1998.pdf)) + **Deepthi** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/deepthi_ay250-%20unresolved%20galaxies.pptx))
+  * (1) Overview of SFR Indicators: [Kennicutt (1998)](http://adsabs.harvard.edu/abs/1998ARA%26A..36..189K) and [Kennicutt & Evans (2012), Section 3](http://adsabs.harvard.edu/abs/2012ARA%26A..50..531K) -- **Kareem** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/kareem_Kennicutt_1998.pdf)) + **Deepthi** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/deepthi_ay250-%20unresolved%20galaxies.pptx))
   
 
  * **W 11/9**
-  * (1) Star Formation Histories of SDSS Galaxies: [Kauffmann et al. (2003)](http://adsabs.harvard.edu/abs/2003MNRAS.341...33K) -- **David** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/kauffmann2003.pdf))
-  * (2) SFHs and IMF Variations: [Hoversten & Glazebrook (2008)](http://adsabs.harvard.edu/abs/2008ApJ...675..163H) -- **Max** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/max_HoverstenGlazebrook2008.pptx))
+  * (1) Star Formation Histories of SDSS Galaxies: [Kauffmann et al. (2003)](http://adsabs.harvard.edu/abs/2003MNRAS.341...33K) -- **David** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/kauffmann2003.pdf))
+  * (2) SFHs and IMF Variations: [Hoversten & Glazebrook (2008)](http://adsabs.harvard.edu/abs/2008ApJ...675..163H) -- **Max** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/max_HoverstenGlazebrook2008.pptx))
    
  * **M 11/14**  
-  * (1) M/L Ratios. I: [Bell & de Jong (2001)](http://adsabs.harvard.edu/abs/2001ApJ...550..212B) -- **Irina** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/irina_bell2001-mass-to-light.pdf))
-  * (2) Chemical Evolution: [Tinsley (1979)](http://adsabs.harvard.edu/abs/1979ApJ...229.1046T) -- **Siyao** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/siayo_beatrice_1979.pdf))
+  * (1) M/L Ratios. I: [Bell & de Jong (2001)](http://adsabs.harvard.edu/abs/2001ApJ...550..212B) -- **Irina** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/irina_bell2001-mass-to-light.pdf))
+  * (2) Chemical Evolution: [Tinsley (1979)](http://adsabs.harvard.edu/abs/1979ApJ...229.1046T) -- **Siyao** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/siayo_beatrice_1979.pdf))
 
  * **W 11/16**
-  * (1) Mass-Metallicity Relationship for 50,000 Galaxies: [Tremonti et al. (2004)](http://adsabs.harvard.edu/abs/2004ApJ...613..898T) --  **Saundra** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/saundra_tremonti_2004_presentation.pdf))
-  * (2) Mass-Metallicity Relationship in Nearby Galaxies: [Berg et al. (2012)](http://adsabs.harvard.edu/abs/2012ApJ...754...98B) -- **Ned** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/ned_berg12.pdf))
+  * (1) Mass-Metallicity Relationship for 50,000 Galaxies: [Tremonti et al. (2004)](http://adsabs.harvard.edu/abs/2004ApJ...613..898T) --  **Saundra** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/saundra_tremonti_2004_presentation.pdf))
+  * (2) Mass-Metallicity Relationship in Nearby Galaxies: [Berg et al. (2012)](http://adsabs.harvard.edu/abs/2012ApJ...754...98B) -- **Ned** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/unresolved_galaxies/ned_berg12.pdf))
  
 
 * [Problem set #5](https://github.com/dweisz/ay250_fall2016/blob/master/problem_sets/ps5.pdf) (assigned 11/7, due 11/21)
@@ -181,7 +181,7 @@ This course requires the use of python and github for problem sets.  More detail
 * **Class Presentations:**
 
  * **M 11/21** 
-  * (1) High-redshift galaxy discovery and characterization: [Dunlop (2012)] (https://arxiv.org/abs/1205.1543) -- **Deepthi** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/highz/deepthi_dunlop12.pdf)) and **Ned** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/highz/ned_dunlop12.pdf))
+  * (1) High-redshift galaxy discovery and characterization: [Dunlop (2012)] (https://arxiv.org/abs/1205.1543) -- **Deepthi** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/highz/deepthi_dunlop12.pdf)) and **Ned** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/highz/ned_dunlop12.pdf))
 
  * **W 11/23 -- No Class**
    
@@ -200,7 +200,7 @@ This course requires the use of python and github for problem sets.  More detail
 
  Projects from each pair must proposed and approved by 11/23.
 
- Final project overview is [here] (https://github.com/dweisz/ay250_fall2016/blob/master/problem_sets/finalproject_overview.pdf).
+ Final project overview is [here](https://github.com/dweisz/ay250_fall2016/blob/master/problem_sets/finalproject_overview.pdf).
 
 Final Projects: 
  * **Siyao** and **Ned**: Figures 3-7 from Conroy et al. (2009)
