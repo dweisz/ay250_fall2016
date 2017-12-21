@@ -111,7 +111,7 @@ This course requires the use of python and github for problem sets.  More detail
 
   * **W 10/12**
    * (1) Multiple Populations in Young Clusters I.: [Goudfrooij et al. (2016)](http://adsabs.harvard.edu/abs/2015MNRAS.450.1693G) --  **David**
-   * (2) Multiple Populations in Young Clusters II.: [Niederhofer et al. (2016)](http://adsabs.harvard.edu/abs/2016A%26A...586A.148N) -- **Ned** ([slides] (https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/ned_niederhofer16.pdf))
+   * (2) Multiple Populations in Young Clusters II.: [Niederhofer et al. (2016)](http://adsabs.harvard.edu/abs/2016A%26A...586A.148N) -- **Ned** ([slides](https://github.com/dweisz/ay250_fall2016/blob/master/slides/resolved_stars/ned_niederhofer16.pdf))
 
  * **M 10/17**
   * (1) Stellar Populations in the Local Group: [Tolstoy et al. (2009)](http://adsabs.harvard.edu/abs/2009ARA%26A..47..371T) -- **split between 2 people**
